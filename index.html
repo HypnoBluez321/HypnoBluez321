@@ -15,15 +15,19 @@ a {text-decoration: none;}
 	padding: 5px;
 	border-radius: 5px;
 }
-.FF-head-title-option {
-	width:20%;
-	text-align: center;
+.FF-main-dropdown {
+	color:#fff;
 }
-.FF-head-title-option:hover {
+.FF-main-dropdown:hover {background-color:rgba(0, 0, 0, 0.7);padding:5px;}
+.FF-main-dropdown:hover .FF-main-dropdown-item {
 	background-color:rgba(0, 0, 0, 0.8);
-		border-radius: 3px;
+	display:block;
+	position: fixed;
+	left: 60%;
+	min-width:40%;
 }
-
+span.FF-main-dropdown{text-align:center}
+.FF-main-dropdown-item {display:none;}
 .FF-col0 {background-image: url("mainPics/PurplePillBased.png");}
 .FF-col1 {background-image: url("mainPics/RedPillBased.png");}
 .FF-col2 {background-image: url("mainPics/GreenPillBased.png");}
@@ -54,11 +58,20 @@ a {text-decoration: none;}
     <div class="w3-twothird">
       <div class="FF-col1 w3-container w3-card-2 w3-round w3-margin-bottom">
 
-      	<div><h1 class="FF-head-title">
-  				<a href="#">Hypnotic Menu</a>
-  				<a href="#" class="FF-head-title-option w3-right">Woa stuf</a>
-  				<a href="#" class="FF-head-title-option w3-right">Yoyo</a></h1>
+      <div>
+      	<div>
+      	  <h1 class="FF-head-title">Hypnotic Menu <i class="FF-main-dropdown w3-tooltip w3-right">III 	  	
+      	  	<span class="FF-main-dropdown-item">
+      				<h3>text1</h3>
+      				<h3>text2</h3>
+      			</span></i>
+      	  </h1>  					
       	</div>
+  				
+				</div>
+      
+
+      	
       	
     		<div>
     			<p>Lorem ipsum odor amet, consectetuer adipiscing elit. Magnis netus netus rutrum malesuada interdum ridiculus primis elementum. Gravida ipsum vulputate vivamus in ultricies malesuada. Maecenas fermentum consectetur quisque consequat laoreet ipsum hendrerit urna. Eget integer eleifend morbi, vivamus maecenas tellus justo leo. Mollis vulputate sem primis lobortis taciti nostra vivamus odio volutpat. Bibendum faucibus leo finibus torquent erat vivamus lacus commodo. Porta arcu sed vulputate non mus sed eleifend lectus. Taciti imperdiet dolor per ac porttitor vehicula. Porta integer sit cursus pulvinar cubilia. Lorem ipsum odor amet, consectetuer adipiscing elit. Magnis netus netus rutrum malesuada interdum ridiculus primis elementum. Gravida ipsum vulputate vivamus in ultricies malesuada. Maecenas fermentum consectetur quisque consequat laoreet ipsum hendrerit urna. Eget integer eleifend morbi, vivamus maecenas tellus justo leo. Mollis vulputate sem primis lobortis taciti nostra vivamus odio volutpat. Bibendum faucibus leo finibus torquent erat vivamus lacus commodo. Porta arcu sed vulputate non mus sed eleifend lectus. Taciti imperdiet dolor per ac porttitor vehicula. Porta integer sit cursus pulvinar cubilia. Lorem ipsum odor amet, consectetuer adipiscing elit. Magnis netus netus rutrum malesuada interdum ridiculus primis elementum. Gravida ipsum vulputate vivamus in ultricies malesuada. Maecenas fermentum consectetur quisque consequat laoreet ipsum hendrerit urna. Eget integer eleifend morbi, vivamus maecenas tellus justo leo. Mollis vulputate sem primis lobortis taciti nostra vivamus odio volutpat. Bibendum faucibus leo finibus torquent erat vivamus lacus commodo. Porta arcu sed vulputate non mus sed eleifend lectus. Taciti imperdiet dolor per ac porttitor vehicula. Porta integer sit cursus pulvinar cubilia.</p>
